@@ -218,7 +218,9 @@ jQuery(function ($) {
     $('.navbar .dropdown > a').click(function () {
         location.href = this.href;
     });
-
+	$('#categories .dropdown > a').click(function () {
+        location.href = this.href;
+    });
     jQuery('#list-view').click(function() {
         window.dispatchEvent(new Event('resize'));
     });
