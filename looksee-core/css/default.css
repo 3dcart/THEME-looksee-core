@@ -14,7 +14,9 @@ body {
 footer {
     flex-shrink: 0;
 }
-
+.homeCarousel .slides>li {
+    z-index: 0 !important;
+}
 body {
     font-family: 'Castoro', serif;
     color: #000;
